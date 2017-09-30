@@ -31,7 +31,7 @@ double adxl345Read(int bus, char axis);
 int main()
 {
 	
-	int file;
+	int bus;
 	
 	//open i2c bus
 	bus = i2cCreate();
